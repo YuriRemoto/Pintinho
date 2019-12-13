@@ -7,9 +7,28 @@ body, ul, li, p {
 	font-family: Arial;
 }
 
-a {
-	text-decoration: none;
-	color:white;
+
+a{
+	text-decoration:none;
+  padding: 20px 25px;
+}
+
+a:link {
+  color: #838383;
+}
+a:visited {
+ color: pink;
+}
+
+
+a:hover {
+   color: red;
+	background: yellow;
+    font-size: 30px;
+}
+
+a:active {
+  color: #df2b4f;
 }
 
 
@@ -24,7 +43,11 @@ img{
 
 }
 
-
+.topo{
+	background:orange;
+	border-bottom: 5px solid;
+	height:585px;
+}
 
 
 .header{
@@ -43,9 +66,13 @@ padding: 20px;
 
 
 .flex{
-	display: grid;
+	background:tomato;
 }
-
+.footer{
+	border-width: 5px solid-green;
+	background:orange;
+	height:385px;
+}
 
 .menu li {
 	margin-left: 20px;
@@ -54,7 +81,7 @@ padding: 20px;
 .menu li a{
 	display: block;
 	padding: 10px;
-	background: tomato;
+	
 }
 
 /* flex box layout */
